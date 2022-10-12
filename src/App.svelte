@@ -1,7 +1,9 @@
 <script>
   import About from "./components/About.svelte";
+    import ButtonCount from "./components/ButtonCount.svelte";
     import Input from "./components/input.svelte";
   import Person from "./components/Person.svelte";
+    import Photos from "./components/Photos.svelte";
     import Skills from "./components/Skills.svelte";
   import Text from "./components/Text.svelte";
 
@@ -31,6 +33,8 @@
   <Skills/>
 
   <Input/>
+  <ButtonCount></ButtonCount>
+  <Photos></Photos>
 
 </main>
 
